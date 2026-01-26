@@ -28,7 +28,7 @@ export default function Footer() {
       {/* Pie de página */}
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-3">
         <p>
-          © {new Date().getFullYear()} <a href="https://www.instagram.com/makeitreal_devs/" className="hover:underline">MakiReal</a>. Todos los derechos reservados.
+          © {new Date().getFullYear()} <a href="https://www.instagram.com/makeitreal_devs/" className="hover:underline">MakitReal</a>. Todos los derechos reservados.
         </p>
       </div>
     </footer>

@@ -45,9 +45,10 @@ export default function About() {
 
   return (
     <div
-      id="about"
-      className="w-full px-[12%] py-1 scroll-mt-20 text-[#14532d] dark:text-[#bbf7d0] font-montserrat"
-    >
+  id="about"
+  className="w-full px-[16%] pt-14 pb-15 scroll-mt-10 text-[#14532d] dark:text-[#bbf7d0] font-montserrat"
+>
+
       <h4 className="text-center mb-4 text-lg text-[#16a34a] dark:text-[#4ade80]">
         Introducción
       </h4>
