@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+body {
+    background: linear-gradient(to right, #f9f9f9, #e3f2fa, #f9f9f9);
+}
+
+
+
+
+html.dark body {
+   background: #11001F; 
+}
+
+/* Mejorar responsividad para pantallas pequeñas (800x500 o menores) */
+@media (max-width: 800px), (max-height: 500px) {
+  body {
+    background: linear-gradient(to right, #f9f9f9, #e3f2fa, #f9f9f9);
+    padding: 0 !important;
+  }
+  .font-montserrat, .font-sans, .font-poppins {
+    font-size: 15px !important;
+  }
+  .w-64, .sm\:w-80 {
+    width: 180px !important;
+    min-width: 120px !important;
+  }
+  .text-5xl {
+    font-size: 2rem !important;
+  }
+  .px-\[12\%\] {
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+  }
+  .gap-20, .my-20, .my-10 {
+    gap: 1.5rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .rounded-3xl {
+    border-radius: 1.2rem !important;
+  }
+  .w-32, .sm\:w-40 {
+    width: 90px !important;
+    min-width: 60px !important;
+  }
+  .h-32, .sm\:h-40 {
+    height: 90px !important;
+    min-height: 60px !important;
+  }
+  .max-w-2xl, .max-w-5xl, .max-w-xl {
+    max-width: 95vw !important;
+  }
+  .grid-cols-3, .sm\:grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
