@@ -1,6 +1,7 @@
 export default function Header() {
     return (
-        <div className="w-11/15 max-w-4xl text-center mx-auto min-h-screen pt-32 flex flex-col items-center justify-center gap-2 text-[#14532d] dark:text-[#bbf7d0] font-montserrat">
+      <div
+  className="w-11/15 max-w-4xl text-center mx-auto min-h-screen pt-28 sm:pt-32 flex flex-col items-center justify-start sm:justify-center gap-2 text-[#14532d] dark:text-[#bbf7d0] font-montserrat">
 
             {/* Imagen de perfil */}
             <img 
