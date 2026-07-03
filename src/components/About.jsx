@@ -5,10 +5,10 @@ import {
   Atom,
   GitBranch,
 } from "lucide-react";
-import { AiFillHtml5,AiOutlineCoffee} from "react-icons/ai";
-import { RiTailwindCssLine } from "react-icons/ri";
+import { AiFillHtml5, AiOutlineCoffee } from "react-icons/ai";
+import { BiLogoTailwindCss } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io";
-import { FaNodeJs,FaPython } from "react-icons/fa";
+import { FaNodeJs, FaPython } from "react-icons/fa";
 
 
 export default function About() {
@@ -34,7 +34,7 @@ export default function About() {
 
   const tools = [
 { name: "HTML", icon: <AiFillHtml5 className="w-6 h-6 text-[#E34F26]" /> },        
-{ name: "Tailwind", icon: <RiTailwindCssLine className="w-6 h-6 text-[#38BDF8]" /> },       
+{ name: "Tailwind", icon: <BiLogoTailwindCss className="w-6 h-6 text-[#38BDF8]" /> },       
 { name: "JavaScript", icon: <IoLogoJavascript className="w-6 h-6 text-[#F7DF1E]" /> },     
 { name: "React", icon: <Atom className="w-6 h-6 text-[#61DAFB]" /> },           
 { name: "Node.js", icon: <FaNodeJs className="w-6 h-6 text-[#339933]" /> },      
